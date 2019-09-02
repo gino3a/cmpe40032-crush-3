@@ -19,7 +19,7 @@ WINDOW_HEIGHT = 720
 
 function love.load()
     -- sprite sheet of tiles
-    tileSprite = love.graphics.newImage('match3.png')
+    tileSprite = love.graphics.newImage('crush3.png')
 
     -- individual tile quads
     tileQuads = GenerateQuads(tileSprite, 32, 32)
